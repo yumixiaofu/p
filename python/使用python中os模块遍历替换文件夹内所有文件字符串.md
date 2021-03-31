@@ -52,6 +52,9 @@ count_list = modify_file_name(thwz,thcsm, get_all_files, src)
 
 # 使用方法
 只需要传入三个变量即可。
+
 src = "这里是文件夹路径"
+
 thwz="要替换的文字"
+
 thcsm="替换成什么"
