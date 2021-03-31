@@ -1,4 +1,4 @@
-# 使用python中re模块替换单个文件的字符串
+# 使用python中re模块+open()函数实现替换单个文件的字符串
 ```
 import re
 
