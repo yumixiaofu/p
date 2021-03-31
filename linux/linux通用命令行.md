@@ -1,4 +1,4 @@
-#linux curl 将查询结果输入到文件
+# linux curl 将查询结果输入到文件
 
 例子：curl -o result.txt http://ip:port/xxxxxx?access_token=xxxx\&DQZT=xxxx\&page=7\&per_page=1000
 
