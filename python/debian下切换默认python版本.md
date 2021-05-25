@@ -16,3 +16,7 @@ https://blog.csdn.net/linux_hua130/article/details/51419427
 # python2之pip2的安装命令！
 
 apt-get install python-pip；安装python2.7的pip，这个命令也就是安装了python2和python2的pip；
+
+#  pip包的复杂安装
+
+python3 -m pip install --upgrade google-api-python-client oauth2client progressbar2
