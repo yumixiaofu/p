@@ -9,10 +9,16 @@ ssh-keygen -t rsa -P ""
 
 # 2.拷贝A服务器root目录下.ssh目录下的id_rsa.pub内容到B服务器的root目录下.ssh目录下的authorized_keys文件中
 
-# 3.使用方法（在a服务器上面向b服务器拷贝文件）
+# 3.传输单个文件使用方法（在a服务器上面向b服务器拷贝文件）
 
 scp 带绝对路径的文件或者文件夹 root@B服务器ip:这里是B服务器接收文件或者文件夹的路径
 
 例子：scp /www/wwwroot/1.3.2.4/index.html root@4.54.65.23:/www/wwwroot/4.54.65.23
+
+# 4.传输文件夹使用方法（在a服务器上面向b服务器拷贝文件）
+
+scp -r / root@212.95.137.12:/
+
+加一个 -r即可！
 
 
