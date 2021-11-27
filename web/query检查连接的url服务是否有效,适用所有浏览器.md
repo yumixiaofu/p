@@ -1,4 +1,5 @@
-//jquery检查连接的url服务是否有效,适用所有浏览器
+#jquery检查连接的url服务是否有效,适用所有浏览器
+```
 const $ = require('jquery')
 $(document).ready(function () {
   // 执行代码
@@ -25,3 +26,4 @@ $(document).ready(function () {
     NetPing(urlVal);
   })
 });
+```
